@@ -104,6 +104,11 @@ ul {
   font-style: normal;
   text-decoration: none;
   margin-left: 0%;
+  display: flex;
+  align-items: center;
+}
+.tel img {
+  margin-right: 10px;
 }
 
 .site-nav .tel:hover,
@@ -112,14 +117,14 @@ ul {
   color: var(--accent-color);
   font-style: normal;
 }
-.site-nav .mail ::before {
-  background-image: url('../images/envelope\ \(hover\).svg');
+/* .site-nav .mail::before {
+  background-image: url('../images/envelope.svg');
   background-size: contain;
   margin-right: 10px;
   width: 16px;
   height: 12px;
   content: '';
-}
+} */
 .site-nav .mail {
   color: #757575;
   font-weight: 500;
@@ -127,8 +132,14 @@ ul {
   font-size: 14px;
   line-height: 1.2;
   text-decoration: none;
+  display: flex;
+
+  align-items: center;
 }
-.site-nav .mail:hover,
+.mail img {
+  margin-right: 10px;
+}
+.s .site-nav .mail:hover,
 .site-nav .mail:focus {
   color: #757575;
   color: #18a0fb;
@@ -378,12 +389,28 @@ ul {
   text-align: center;
 }
 .team-content {
-  padding: 30px 60px;
+  padding: 30px 32px;
 }
 .team-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.team-social-list {
+  display: flex;
+  padding-top: 16px;
+}
+.team-social-item {
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-social-item:not(:last-child) {
+  margin-right: 10px;
 }
 .clients {
   margin-top: 94px;
@@ -395,6 +422,30 @@ ul {
   text-align: center;
   padding-bottom: 50px;
 }
+.client1::after {
+  content: '';
+  display: inline-block;
+  width: 170px;
+  height: 92px;
+  background-color: #fff;
+  background-image: url(../images/union.svg);
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  border: solid 1px;
+  border-color: #afb1b8;
+  cursor: pointer;
+}
+/* .client1:hover {
+  content: '';
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/union1.svg);
+  fill: #2196f3;
+} */
 /* Footer */
 .logo-foot {
   padding-top: 60px;
