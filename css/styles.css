@@ -64,6 +64,11 @@ ul {
 .header-span {
   color: #000;
 }
+.contact-svg {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -79,6 +84,9 @@ ul {
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
+}
+.current {
+  color: #2196f3;
 }
 .site-nav {
   margin: 0;
@@ -110,13 +118,20 @@ ul {
 .tel img {
   margin-right: 10px;
 }
-
-.site-nav .tel:hover,
-.site-nav .tel:focus {
-  color: #757575;
+/* .contact .site-nav > .contact-svg:hover,
+.contact-svg:focus {
+  color: var(--accent-color);
+} */
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+.tel:hover,
+.tel:focus {
   color: var(--accent-color);
   font-style: normal;
 }
+.contact-svg .tel
 /* .site-nav .mail::before {
   background-image: url('../images/envelope.svg');
   background-size: contain;
