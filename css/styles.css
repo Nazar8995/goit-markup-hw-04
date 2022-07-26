@@ -63,10 +63,12 @@ ul {
 }
 .header-span {
   color: #000;
+  margin-right: 93px;
 }
 .contact-svg {
   margin-right: 10px;
 }
+
 .contact-svg {
   fill: #757575;
 }
@@ -84,7 +86,6 @@ ul {
   line-height: 1.2;
   font-style: normal;
   text-decoration: none;
-  margin-left: 40px;
 }
 .container {
   width: 1205px;
@@ -179,7 +180,7 @@ ul {
 /* Button */
 .button {
   color: var(--primary-bg-color);
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -198,6 +199,9 @@ ul {
   padding-bottom: 10px;
   padding-right: 32px;
   padding-left: 32px;
+}
+.button:hover {
+  background-color: #188ce8;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
