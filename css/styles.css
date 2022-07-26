@@ -42,7 +42,7 @@ ul {
 
 .header {
   background-color: var(--primary-bg-color);
-  padding: 28px 0px;
+  padding: 24px 0px 25px;
 }
 
 .header__container {
@@ -596,6 +596,9 @@ ul {
 }
 .adress {
   margin-bottom: 9px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -744,7 +747,7 @@ ul {
 }
 .header-portf {
   background-color: var(--primary-bg-color);
-  padding: 28px 0px;
+  padding: 24px 0px 25px;
   outline: 1px solid;
   outline-color: #ececec;
 }
